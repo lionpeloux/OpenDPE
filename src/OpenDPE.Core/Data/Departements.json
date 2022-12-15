@@ -1,0 +1,482 @@
+[
+  {
+    "Code": "01",
+    "Nom": "Ain",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "02",
+    "Nom": "Aisne",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "03",
+    "Nom": "Allier",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "04",
+    "Nom": "Alpes-de-Haute-Provence",
+    "ZoneClimatique": "H2d"
+  },
+  {
+    "Code": "05",
+    "Nom": "Hautes-Alpes",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "06",
+    "Nom": "Alpes-Maritimes",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "07",
+    "Nom": "Ardèche",
+    "ZoneClimatique": "H2d"
+  },
+  {
+    "Code": "08",
+    "Nom": "Ardennes",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "09",
+    "Nom": "Ariège",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "10",
+    "Nom": "Aube",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "11",
+    "Nom": "Aude",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "12",
+    "Nom": "Aveyron",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "13",
+    "Nom": "Bouches-du-Rhône",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "14",
+    "Nom": "Calvados",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "15",
+    "Nom": "Cantal",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "16",
+    "Nom": "Charente",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "17",
+    "Nom": "Charente-Maritime",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "18",
+    "Nom": "Cher",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "19",
+    "Nom": "Corrèze",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "2A",
+    "Nom": "Cores-du-Sud",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "2B",
+    "Nom": "Haute-Corse",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "21",
+    "Nom": "Côte-d'Or",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "22",
+    "Nom": "Côtes-d'Armor",
+    "ZoneClimatique": "H2a"
+  },
+  {
+    "Code": "23",
+    "Nom": "Creuse",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "24",
+    "Nom": "Dordogne",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "25",
+    "Nom": "Doubs",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "26",
+    "Nom": "Drôme",
+    "ZoneClimatique": "H2d"
+  },
+  {
+    "Code": "27",
+    "Nom": "Eure",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "28",
+    "Nom": "Eure-et-Loir",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "29",
+    "Nom": "Finistère",
+    "ZoneClimatique": "H2a"
+  },
+  {
+    "Code": "30",
+    "Nom": "Gard",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "31",
+    "Nom": "Haute-Garonne",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "32",
+    "Nom": "Gers",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "33",
+    "Nom": "Gironde",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "34",
+    "Nom": "Hérault",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "35",
+    "Nom": "Ille-et-Vilaine",
+    "ZoneClimatique": "H2a"
+  },
+  {
+    "Code": "36",
+    "Nom": "Indre",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "37",
+    "Nom": "Indre-et-Loire",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "38",
+    "Nom": "Isère",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "39",
+    "Nom": "Jura",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "40",
+    "Nom": "Landes",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "41",
+    "Nom": "Loir-et-Cher",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "42",
+    "Nom": "Loire",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "43",
+    "Nom": "Haute-Loire",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "44",
+    "Nom": "Loire-Atlantique",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "45",
+    "Nom": "Loiret",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "46",
+    "Nom": "Lot",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "47",
+    "Nom": "Lot-et-Garonne",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "48",
+    "Nom": "Lozère",
+    "ZoneClimatique": "H2d"
+  },
+  {
+    "Code": "49",
+    "Nom": "Maine-et-Loire",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "50",
+    "Nom": "Manche",
+    "ZoneClimatique": "H2a"
+  },
+  {
+    "Code": "51",
+    "Nom": "Marne",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "52",
+    "Nom": "Haute-Marne",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "53",
+    "Nom": "Mayenne",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "54",
+    "Nom": "Meurthe-et-Moselle",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "55",
+    "Nom": "Meuse",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "56",
+    "Nom": "Morbihan",
+    "ZoneClimatique": "H2a"
+  },
+  {
+    "Code": "57",
+    "Nom": "Moselle",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "58",
+    "Nom": "Nièvre",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "59",
+    "Nom": "Nord",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "60",
+    "Nom": "Oise",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "61",
+    "Nom": "Orne",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "62",
+    "Nom": "Pas-de-Calais",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "63",
+    "Nom": "Puy-de-Dôme",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "64",
+    "Nom": "Pyrénées-Atlantiques",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "65",
+    "Nom": "Hautes-Pyrénées",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "66",
+    "Nom": "Pyrénées-Orientales",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "67",
+    "Nom": "Bas-Rhin",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "68",
+    "Nom": "Haut-Rhin",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "69",
+    "Nom": "Rhône",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "70",
+    "Nom": "Haute-Saône",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "71",
+    "Nom": "Saône-et-Loire",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "72",
+    "Nom": "Sarthe",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "73",
+    "Nom": "Savoie",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "74",
+    "Nom": "Haute-Savoie",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "75",
+    "Nom": "Paris",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "76",
+    "Nom": "Seine-Maritime",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "77",
+    "Nom": "Seine-et-Marne",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "78",
+    "Nom": "Yvelines",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "79",
+    "Nom": "Deux-Sèvres",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "80",
+    "Nom": "Somme",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "81",
+    "Nom": "Tarn",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "82",
+    "Nom": "Tarn-et-Garonne",
+    "ZoneClimatique": "H2c"
+  },
+  {
+    "Code": "83",
+    "Nom": "Var",
+    "ZoneClimatique": "H3"
+  },
+  {
+    "Code": "84",
+    "Nom": "Vaucluse",
+    "ZoneClimatique": "H2d"
+  },
+  {
+    "Code": "85",
+    "Nom": "Vendée",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "86",
+    "Nom": "Vienne",
+    "ZoneClimatique": "H2b"
+  },
+  {
+    "Code": "87",
+    "Nom": "Haute-Vienne",
+    "ZoneClimatique": "H1c"
+  },
+  {
+    "Code": "88",
+    "Nom": "Vosges",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "89",
+    "Nom": "Yonne",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "90",
+    "Nom": "Territoire de Belfort",
+    "ZoneClimatique": "H1b"
+  },
+  {
+    "Code": "91",
+    "Nom": "Essonne",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "92",
+    "Nom": "Hauts-de-Seine",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "93",
+    "Nom": "Seine-Saint-Denis",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "94",
+    "Nom": "Val-de-Marne",
+    "ZoneClimatique": "H1a"
+  },
+  {
+    "Code": "95",
+    "Nom": "Val-d'Oise",
+    "ZoneClimatique": "H1a"
+  }
+]

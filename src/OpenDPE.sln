@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenDPE", "OpenDPE\OpenDPE.csproj", "{4C516993-ACED-41AB-AAF9-11317FC0E74B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenDPE.Gh", "OpenDPE.Gh\OpenDPE.Gh.csproj", "{50D804D7-053C-4B51-9FE7-47B4CD668C33}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C516993-ACED-41AB-AAF9-11317FC0E74B} = {4C516993-ACED-41AB-AAF9-11317FC0E74B}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenDPE.TestApp", "OpenDPE.TestApp\OpenDPE.TestApp.csproj", "{99046B67-C558-45F6-B3D5-4216CD3F309D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C516993-ACED-41AB-AAF9-11317FC0E74B} = {4C516993-ACED-41AB-AAF9-11317FC0E74B}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenDPE.Core", "OpenDPE.Core\OpenDPE.Core.csproj", "{1DDE33FE-26B9-43DA-A4EA-D5343DED3A9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenDPE.Core.SourceGenerator", "OpenDPE.Core.SourceGenerator\OpenDPE.Core.SourceGenerator.csproj", "{FC0D5426-F477-4B50-B694-512E3F303777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDPE.Generators", "OpenDPE.Generators\OpenDPE.Generators.csproj", "{7A992F50-6866-4362-927A-2166BDAE96AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C516993-ACED-41AB-AAF9-11317FC0E74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C516993-ACED-41AB-AAF9-11317FC0E74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C516993-ACED-41AB-AAF9-11317FC0E74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C516993-ACED-41AB-AAF9-11317FC0E74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D804D7-053C-4B51-9FE7-47B4CD668C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D804D7-053C-4B51-9FE7-47B4CD668C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D804D7-053C-4B51-9FE7-47B4CD668C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D804D7-053C-4B51-9FE7-47B4CD668C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99046B67-C558-45F6-B3D5-4216CD3F309D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99046B67-C558-45F6-B3D5-4216CD3F309D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99046B67-C558-45F6-B3D5-4216CD3F309D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99046B67-C558-45F6-B3D5-4216CD3F309D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDE33FE-26B9-43DA-A4EA-D5343DED3A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDE33FE-26B9-43DA-A4EA-D5343DED3A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDE33FE-26B9-43DA-A4EA-D5343DED3A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDE33FE-26B9-43DA-A4EA-D5343DED3A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0D5426-F477-4B50-B694-512E3F303777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0D5426-F477-4B50-B694-512E3F303777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0D5426-F477-4B50-B694-512E3F303777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0D5426-F477-4B50-B694-512E3F303777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A992F50-6866-4362-927A-2166BDAE96AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A992F50-6866-4362-927A-2166BDAE96AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A992F50-6866-4362-927A-2166BDAE96AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A992F50-6866-4362-927A-2166BDAE96AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A257BB-7393-4EAD-B910-7206CD12CFF4}
+	EndGlobalSection
+EndGlobal

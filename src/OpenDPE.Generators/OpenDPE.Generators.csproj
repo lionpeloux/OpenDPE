@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GeneratedFiles\*.cs" />
+    <None Include="GeneratedFiles\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Templates\*.cs" />
+    <None Include="Templates\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Scriban" Version="5.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenDPE.Core\OpenDPE.Core.csproj" />
+  </ItemGroup>
+
+  <!-- AFTER BUILD EVENTS (LDP) -->
+  <Target Name="CopyGeneratedFiles" AfterTargets="Build">
+    <Message Text="Copying generated files to directory" Importance="High" />
+    <ItemGroup>
+      <FilesToCopy Include="$(ProjectDir)GeneratedFiles\*.g.cs" />
+      <DestinationDir Include="$(SolutionDir)OpenDPE.Core\_GeneratedFiles\" />
+    </ItemGroup>
+    <Message Text="Files to copy : @(FilesToCopy)" Importance="High" />
+    <Message Text="Dir to copy   : @(DestinationDir)" Importance="High" />
+    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="@(DestinationDir)" />
+  </Target>
+
+
+</Project>

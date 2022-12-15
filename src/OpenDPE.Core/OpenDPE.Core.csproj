@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enums\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Model\Construction\" />
+    <Folder Include="Model\Equipement\" />
+    <Folder Include="Model\Meteo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\Departements.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup> 
+
+  <!--<PropertyGroup>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>GeneratedFiles</CompilerGeneratedFilesOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="$(ProjectDir)_GeneratedFiles\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OpenDPE.Core.SourceGenerator\OpenDPE.Core.SourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>-->
+  
+  <!-- AFTER BUILD EVENTS (LDP) -->
+  <!--<Target Name="CopyGeneratedFiles" AfterTargets="Build">
+    <Message Text="Copying generated files to directory" Importance="High" />
+    <ItemGroup>
+      <FilesToCopy Include="$(ProjectDir)obj\$(Configuration)\$(TargetFramework)\generated\**\*.g.cs" />
+      <DestinationDir Include="$(ProjectDir)_GeneratedFiles\" />
+    </ItemGroup>
+    <Message Text="Files to copy : @(FilesToCopy)" Importance="High" />
+    <Message Text="Dir to copy   : @(DestinationDir)" Importance="High" />
+    <Copy SourceFiles="@(FilesToCopy)" DestinationFolder="@(DestinationDir)" />
+  </Target>-->
+
+</Project>
